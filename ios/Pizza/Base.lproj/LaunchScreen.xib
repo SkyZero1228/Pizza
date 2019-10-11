@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="385" height="596"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg.png" translatesAutoresizingMaskIntoConstraints="NO" id="yMO-gK-9aW">
+                    <rect key="frame" x="0.0" y="0.0" width="385" height="596"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="menu_header.png" translatesAutoresizingMaskIntoConstraints="NO" id="fzV-HO-gKN">
+                    <rect key="frame" x="19.333333333333343" y="119.33333333333333" width="346.33333333333326" height="178.66666666666669"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="car.png" translatesAutoresizingMaskIntoConstraints="NO" id="0sO-ZU-fSU">
+                    <rect key="frame" x="19.333333333333343" y="268.33333333333331" width="346.33333333333326" height="178.66666666666669"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="fzV-HO-gKN" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" multiplier="0.3" id="5A6-Jo-zqr"/>
+                <constraint firstItem="yMO-gK-9aW" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" id="8Og-fI-xvQ"/>
+                <constraint firstItem="0sO-ZU-fSU" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" multiplier="1.2" id="JJf-TU-9al"/>
+                <constraint firstItem="yMO-gK-9aW" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="Jmc-d4-YXE"/>
+                <constraint firstItem="0sO-ZU-fSU" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Jtl-VN-cdz"/>
+                <constraint firstItem="fzV-HO-gKN" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" multiplier="0.7" id="MiI-6d-Crf"/>
+                <constraint firstItem="0sO-ZU-fSU" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" multiplier="0.3" id="NKW-OL-HlU"/>
+                <constraint firstItem="yMO-gK-9aW" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="VUS-6T-f0F"/>
+                <constraint firstItem="0sO-ZU-fSU" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.9" id="e8g-Xh-3hb"/>
+                <constraint firstItem="fzV-HO-gKN" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="kBh-AE-E5A"/>
+                <constraint firstItem="yMO-gK-9aW" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" id="phg-hT-8Vs"/>
+                <constraint firstItem="fzV-HO-gKN" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.9" id="zH7-OC-nbG"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="478.98550724637687" y="493.52678571428567"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="bg.png" width="745" height="1308"/>
+        <image name="car.png" width="724" height="331"/>
+        <image name="menu_header.png" width="649" height="141"/>
+    </resources>
+</document>
